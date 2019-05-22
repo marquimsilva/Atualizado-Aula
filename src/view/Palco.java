@@ -28,11 +28,11 @@ public class Palco extends Application {
         //Carregar os FXMLs
         Parent root = FXMLLoader.load(getClass().getResource("FXMLPrincipal.fxml"));
         Parent cadAluno =        FXMLLoader.load(getClass().getResource("FXMLCadastroAluno.fxml"));
-        Parent visualizarAluno = FXMLLoader.load(getClass().getResource("FXMLVisualizar.fxml"));
+        //Parent visualizarAluno = FXMLLoader.load(getClass().getResource("FXMLVisualizar.fxml"));
         //Crio as scenas com os fxmls
          scener = new Scene(root, 600, 600);
          sceneCadAluno = new Scene(cadAluno, 600, 600);
-         sceneVisualizarAluno = new Scene(visualizarAluno, 600, 600);
+         //sceneVisualizarAluno = new Scene(visualizarAluno, 600, 600);
         stage.setTitle("Tela Principal");
         stage.setScene(scener);
         stage.setResizable(true);

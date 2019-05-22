@@ -26,6 +26,10 @@ public class Aluno {
     public void setSexo(String sexo) {
         this.sexo = sexo;
     }
+
+    public void getNumero(String text) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     
     
